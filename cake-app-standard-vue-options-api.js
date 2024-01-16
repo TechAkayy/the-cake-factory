@@ -33,11 +33,11 @@ const rootComponent = {
         sanitize: false,
         customClass: 'p-4',
       })
-      tooltip.show()
+      tooltip?.show()
     },
     hideTooltip({target: $el}) {
       const tooltip = bootstrap.Tooltip.getInstance($el)
-      tooltip.dispose()
+      tooltip?.dispose()
     },
     subscribe() {
       console.log(this.email)

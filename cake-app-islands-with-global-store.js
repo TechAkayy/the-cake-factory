@@ -42,11 +42,11 @@ return _allTimings
       sanitize: false,
       customClass: 'p-4',
     })
-    tooltip.show()
+    tooltip?.show()
   },
   hideTooltip($el) {
     const tooltip = bootstrap.Tooltip.getInstance($el)
-    tooltip.dispose()
+    tooltip?.dispose()
   },
 })
 

@@ -34,11 +34,11 @@ const rootComponent = {
         sanitize: false,
         customClass: 'p-4',
       })
-      tooltip.show()
+      tooltip?.show()
     }
     const hideTooltip = ({target: $el}) => {
       const tooltip = bootstrap.Tooltip.getInstance($el)
-      tooltip.dispose()
+      tooltip?.dispose()
     }
 
     return {
