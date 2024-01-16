@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@11ty/is-land": "^4.0.0"
+  }
+}
